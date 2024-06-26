@@ -1,0 +1,75 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 8rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 80px;
+}
+
+.navigation .nav-header{
+    display: flex;
+    gap: 1rem;
+}
+.nav-header .logo{
+  color: var(--white-color);
+  font-size: 1.8rem;
+}
+.nav-header .nav-logo{
+  font-size: 2rem;
+  color: var(--white-color);
+ 
+}
+.nav-header .nav-logo span{
+   color: var(--background-dark-color);
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.links ul li{
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+.links ul li:hover{
+    color: var(--background-dark-color);
+
+}
+.nav-button{
+    display: flex;
+    gap: 1rem;
+}
+.nav-button button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    width: 6rem;
+}
+.nav-button button:nth-child(2){
+    border: 1px solid var(--background-dark-color);
+    color: var(--white-color);
+    background-color: var(--background-dark-color);
+}
+.nav-button button:nth-child(2):hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+.nav-button button:hover{
+    background-color: var(--background-dark-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
