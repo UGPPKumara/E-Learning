@@ -1,0 +1,106 @@
+.course-details{
+  background-color: var(--white-color);
+}
+.details-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.details-left{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 5rem;
+  width: 40%;
+  gap: 1rem;
+}
+.name{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
+}
+.desc{
+  font-size: 1rem;
+  color: var(--font-light-color);
+
+}
+.lang{
+  font-size: 1.2rem;
+  color: var(--font-light-color);
+
+}
+.date{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--font-dark-color);
+}
+.price-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.price-container button{
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.price-container button:hover{
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+.price{
+  font-size: 2rem;
+  color: var(--background-dark-color);
+}
+
+.details-right{
+  width: 60%;
+}
+.details-right img{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.course-journey{
+  padding: 2rem 0;
+  background-color: var(--white-color);
+}
+.course-journey h2{
+  padding: 2rem 7rem;
+  font-weight: 800;
+}
+.field-container{
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-inline: 5rem;
+  display: flex;
+  margin: 1rem 7rem;
+  flex-direction: column;
+}
+.field-container .p-name{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.phase{
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+
+}
+.field-container ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding-inline: 5rem;
+  padding-bottom: 2rem;
+}

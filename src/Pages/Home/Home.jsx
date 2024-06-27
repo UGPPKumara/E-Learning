@@ -4,7 +4,7 @@ import './Home.css'
 import Trusted from '../../Components/Trusted/Trusted'
 import Detail from '../../Components/Detail/Detail'
 import CourseList from '../../Components/CourseList/CourseList'
-
+import Info from '../../Components/Info/Info'
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
       <Trusted/>
       <Detail/>
       <CourseList/>
+      <Info/>
     </div>
   )
 }

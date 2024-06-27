@@ -3,6 +3,7 @@
   display: grid;
   background-color: #e7e7e7;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .course-wrapper h2{
@@ -36,6 +37,7 @@
 .course-img{
   height: 16rem;
   width: 100%;
+  object-fit: cover;
   margin-bottom: 1rem;
 }
 .course-name , .course-price, course-standard{

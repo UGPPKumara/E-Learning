@@ -21,8 +21,9 @@ console.log(courses);
         <div className="course-container">
           {courses.map((course, index)=> {
             return(
-             < Link to={'/course/${course.id}'} key={index}> <Course course={course}/>
-              </Link>
+              <Link to={`/course/${course.id}`} key={index}>
+              <Course course={course} />
+            </Link>
             )
           })}
         </div>
